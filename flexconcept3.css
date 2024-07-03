@@ -1,0 +1,73 @@
+.container
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*default -raw*/
+    /*Main axis---->left to right*/
+    /*cross axis--->top tp bottom*/
+}
+.container1
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.container2
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container3
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.container4
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container5
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.item
+{
+    padding: 30px;
+    margin: 10px;
+    background-color: #06af8f;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+

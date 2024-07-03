@@ -1,0 +1,82 @@
+.container
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* flex-wrap and align-content work together */
+}
+.container1
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.container2
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container3
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.container4
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container5
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.container6
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+ 
+}
+.item
+{
+    padding: 30px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}

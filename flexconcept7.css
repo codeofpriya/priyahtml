@@ -1,0 +1,45 @@
+.container
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-wrap and align-content work together*/
+
+}
+.container1
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container2
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container3
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: coral;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.item
+{
+    padding: 30px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    
+}

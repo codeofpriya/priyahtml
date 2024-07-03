@@ -1,0 +1,61 @@
+.container
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    align-items: flex-start;
+  /*  align-items: work across cross axis*/
+}
+.container1
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    align-items: flex-end;
+}
+.container2
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+}
+.container3
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    align-items: stretch;
+}
+.container4
+{
+    margin-top: 20px;
+    padding: 20px 0;
+    height: 700px;
+    background-color: coral;
+    display: flex;
+    align-items: baseline;
+
+}
+
+.item
+{
+    padding: 30px;
+    background-color: aqua;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.item6
+{
+    font-size: 70px;
+}

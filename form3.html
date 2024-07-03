@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3 html</title>
+    <link href="minimal.form3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h2>Login Form </h2>
+    <form action="action-page.php" method="post">
+        <div class="imgcontainer">
+            <img src="image" alt="Avatar" class="avatar" />
+        </div>
+        <table class="family">
+
+            <div class="container">
+                <tr>
+                    <td style="width: 50%;">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required />
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td style="width: 50%;">
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required />
+                    </td>
+                </tr>
+            </div>
+        </table>
+        <table>
+            <br><br>
+            <tr>
+                <td>
+                    <label for="Gender"><b>Gender</b></label>
+                </td>
+            </tr>
+            <tr>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="male" /> male
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Female" /> Female
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Other" /> Other
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <label for="Hobbies"><b>Hobbies</b></label>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="singing" /> singing
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Reading" /> Reading
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="cricket" /> Cricket
+
+                </td>
+            </tr>
+
+
+            <tr>
+
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Football" /> Football
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Dancing" /> Dancing
+                </td>
+                <td class="head">
+                    <input type="checkbox" checked="checked" name="Tenis" /> Tenis
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <tr>
+            <td>
+                <label for="Qualification"><b>Qualification</b></label>
+
+            </td>
+        </tr>
+
+        <tr>
+            <br><br>
+            <td>
+
+                <select style="width: 100%;height: 40px;">
+                    <option value="B.com">B.com</option>
+                    <option value="B.E">B.E</option>
+                    <option value="Sciences">Bsc</option>
+                    <option value="M.com">M.com</option>
+                </select>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <div>
+                <td>
+                    <button type="submit">login</button>
+                    <input type="checkbox" checked="checked" name="remember" /> Remember Me
+                </td>
+            </div>
+
+            <td class="container" style="background-color:#f1f1f1;">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot<a href="#">password</a></span>
+            </td>
+        </tr>
+    </form>
+</body>
+
+
+</html>
